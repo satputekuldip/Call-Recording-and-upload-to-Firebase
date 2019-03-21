@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:icon="@drawable/ic_id"
+            android:title="@string/student" />
+        <item
+            android:icon="@drawable/ic_contacts"
+            android:title="@string/contacts" />
+        <item
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="@string/send_message" />
+
+    </group>
+
+    <item
+        android:checkableBehavior="single"
+        android:title="@string/communicate">
+        <menu>
+
+            <item
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/contact_us" />
+
+            <item
+                android:icon="@drawable/ic_abut"
+                android:title="@string/about_us" />
+
+            <item
+                android:icon="@drawable/ic_app_info"
+                android:title="@string/app_info" />
+            <item
+                android:checked="true"
+                android:icon="@drawable/ic_power_settings_new_24px"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

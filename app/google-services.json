@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "347169545751",
+    "firebase_url": "https://mi-strore.firebaseio.com",
+    "project_id": "mi-strore",
+    "storage_bucket": "mi-strore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347169545751:android:0782999a50127b31",
+        "android_client_info": {
+          "package_name": "com.spark.mistore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347169545751-1ipbfeudbgo54p1f7u9vbpl78jpaatei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spark.mistore",
+            "certificate_hash": "6f0c489f5fb0e1c22a4d6016320bd503692b4691"
+          }
+        },
+        {
+          "client_id": "347169545751-ndver1tkn4sb4lkp0oun044b2lne1969.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRXC3jOvrcF3Y8LBpGI55izMrJNB-Rn7U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347169545751-ndver1tkn4sb4lkp0oun044b2lne1969.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
